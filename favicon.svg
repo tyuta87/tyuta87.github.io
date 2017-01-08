@@ -1,0 +1,7 @@
+<svg
+  width="32px" height="32px"
+  xmlns="http://www.w3.org/2000/svg">
+  
+  <rect width="100%" height="100%" rx="5%" ry="5%" fill="rgba(218,218,218,1.0)" />
+  <text x="50%" y="50%" font-family="Bookman Old Style" font-size="32px" font-weight="bold" text-anchor="middle" dominant-baseline="middle" stroke-linejoin="round" stroke="rgba(74,74,74,0.5)" stroke-width="5%" fill="rgba(138,138,138,1.0)">t</text>
+</svg>

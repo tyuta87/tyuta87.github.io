@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("/img/background.svg");
+	background-repeat: repeat;
+	color: #333333;
+	font-family: "Noto Sans Japanese", sans-serif;
+}
+
+a {
+	color: #663333;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#main {
+	margin: 0 auto;
+	width: 720pt;
+}
+
+#header {
+	position: relative;
+	height: 80pt;
+}
+
+#header h1 {
+	margin: 8pt 0 0 0;
+	font-family: "Fauna One", sans-serif;
+	font-size: 24pt;
+}
+
+#header h1 > a {
+	text-shadow: 0 0 16pt white;
+}
+
+#header p {
+	font-size: 14pt;
+	font-style: italic;
+	text-indent: 1em;
+}
+
+#container-wrapper {
+	padding: 8pt;
+	width: 100%;
+	background-color: white;
+	border-radius: 8pt;
+}
+
+#container {
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#container > div {
+	display: table-cell;
+	padding: 8pt;
+}
+
+#nav-wrapper {
+	width: 140pt;
+}
+
+#nav > div {
+	margin: 0 0 8pt 8pt;
+}
+
+#nav h1 {
+	margin: 4pt;
+	font-family: "Fauna One", sans-serif;
+	font-size: 16pt;
+}
+
+.categories a, .tags a {
+	color: #333333;
+	font-size: 10pt;
+}
+
+.post-title {
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+.post-title a {
+	color: #333333;
+}
+
+.post-meta {
+	margin: 8pt 0;
+	color: #c0c0c0;
+	font-size: 10pt;
+}
+
+.post-meta a {
+	color: #c0c0c0;
+}
+
+.post-body h1 {
+	margin: 16pt 0 8pt 0;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.post-body h2 {
+	margin: 12pt 0 6pt 0;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.post-body h3 {
+	margin: 8pt 0 4pt 0;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.post-body p {
+	margin: 8pt 0;
+	font-size: 12pt;
+	line-height: 1.8em;
+}
+
+#content ul, #content ol {
+	margin: 8pt 0;
+	list-style-position: inside;
+	font-size: 12pt;
+}
+
+#content pre {
+	margin: 8pt;
+	padding: 8pt;
+	border: 1pt solid #c0c0c0;
+	border-radius: 4pt;
+	background-color: #efefef;
+	font-family: "Source Code Pro", monospace;
+	font-size: 10pt;
+	line-height: 1.2em;
+	white-space: pre-wrap;
+}
+
+#content code {
+	background-color: #efefef;
+	font-family: "Source Code Pro", monospace;
+	font-size: 10pt;
+}
+
+#content blockquote {
+	margin: 8pt;
+	padding: 8pt;
+	border: 1pt solid #c0c0c0;
+	background-color: #efefef;
+	font-size: 12pt;
+	font-style: italic;
+}
+
+.separator {
+	margin: 16pt 8pt;
+	height: 1pt;
+	background-color: #c0c0c0;
+	background: -moz-linear-gradient(left, rgba(192, 192, 192, 0.1), #c0c0c0 50%, rgba(192, 192, 192, 0.1));
+	background: -webkit-gradient(linear, left center, right center, from(rgba(192, 192, 192, 0.1)), color-stop(0.5, #c0c0c0), to(rgba(192, 192, 192, 0.1)));
+}
+
+.pager {
+	margin: 8pt 0;
+	color: #c0c0c0;
+	font-size: 10pt;
+}
+
+.pager a {
+	color: #c0c0c0;
+}
+
+#footer {
+	height: 8px;
+}
